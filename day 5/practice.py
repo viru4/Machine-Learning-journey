@@ -1,0 +1,12 @@
+import numpy as np
+a = np.arange(1,13)
+b = a.reshape(3,4)
+print(b.shape)
+a = np.array([[1,2],[3,4]])
+print(a.flatten().ndim)
+a = np.array([10,20,30,40,50])
+print(a[-2])
+a = np.array([5,10,15,20,25])
+print(a[a%10==0])
+a = np.arange(20).reshape(4,5)
+print(a[1:3,2:5])
